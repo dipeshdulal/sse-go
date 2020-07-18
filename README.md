@@ -33,7 +33,9 @@ And check how every request that is made to `log` endpoint is streamed to `sse` 
 var sse = new EventSource("http://localhost:5000/sse")
 sse.onmessage = console.log 
 ```
-And to close the EventSource.
+##### And to close the EventSource.
 ```js
 sse.close()
 ```
+
+To learn more about SSE check the mozilla documentation: https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events
