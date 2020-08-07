@@ -1,5 +1,7 @@
 ### Server Sent Events using go.
 
+**Medium Article**: https://medium.com/wesionary-team/server-sent-events-with-go-and-react-76df101a3efe
+
 To run server just run: (will run in `5000`  port)
 ```
 go run main.go
